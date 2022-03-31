@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ridge-prc</title>
+    <link rel="stylesheet" href="css/practice.css">
+</head>
+<body>
+    <div class="outerHeader"> <!--width:100-->
+        <header class="innerHeader"> <!--사용할width(1030)-->
+            <nav class="navBox"> <!--overflow:hidden -> float 사용할거니까-->
+                <ul class="brand"> <!--float::left-->
+                    <img src="img//header_logo.jpg" alt="">
+                </ul>
+                <ul class="gnb"><!--float:right-->
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">장바구니</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">매장안내</a></li>
+                    <li><a href="#">단체구매</a></li>
+                </ul>
+            </nav>
+            <div class="logoBox"><!--box margin-->
+                <div class="logo"><!--img 크기를 width//height로-->
+                    <img src="img/logo.jpg" alt="">
+                </div>
+                <div class="search"><!--position으로-->
+                    <form name="searchForm" id="searchForm" action=""></form>
+                    <input type="search" name="searchvalue" id="searchvalue" placeholder="상품검색" required">
+                    <button>
+                        <i class="xi-search"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <nav class="lnbBox"> <!--wide된거라 header바깥쪽에 위치-->
+            <ul class="lnb"><!--글자 줄맞출 본문 크기 width -->
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">BAGS&ACC</a></li>
+                <li><a href="#">SHOES</a></li>
+                <li><a href="#">OUTLET</a></li>
+                <li><a href="#">MULTISHOP</a></li>
+                <li><a href="#">STYLE</a></li>
+                <li><a href="#">EVENT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
+</body>
+</html>

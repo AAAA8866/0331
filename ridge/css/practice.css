@@ -1,0 +1,106 @@
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+* {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none; color: black;}
+img {display: block;}
+
+/* ------------------HEADER------------------- */
+
+.outerHeader {width: 100%;}
+.innerHeader {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+.innerHeader .navBox {width: 100%; overflow: hidden;}
+
+.innerHeader .navBox .brand {
+    float: left;
+}
+
+.innerHeader .navBox .gnb {
+    float: right;
+}
+
+.innerHeader .navBox .gnb ul {
+    font-size: 0;
+}
+.innerHeader .navBox .gnb li{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    border-right: 1px solid grey;
+    padding: 0 8px;
+    line-height: 11px; /*font sizae랑 같이*/
+}
+
+.innerHeader .navBox .gnb li a {
+    color: grey;
+}
+
+.innerHeader .navBox .gnb li:last-child {
+    border: none;
+}
+
+
+.innerHeader .logoBox {
+    margin: 20px 0;
+    position: relative;
+}
+.innerHeader .logoBox .logo {
+    width: 200px;
+    height: 70px;
+    margin: 0 auto;
+}
+.innerHeader .logoBox .search {
+    position: absolute;
+    top:30px;
+    right: 0;
+}
+
+.innerHeader .logoBox .search input[type="search"] {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.innerHeader .logoBox .search button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.innerHeader .logoBox .search button i {
+    font-size: 20px;
+}
+
+
+
+.lnbBox {
+    width: 100%;
+    height: 30px;
+    background-color: #1d2d51;
+}
+
+.lnbBox .lnb {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+.lnbBox .lnb li {
+    display: inline-block;    
+    line-height: 30px;
+    padding: 0 25px;
+}
+
+.lnbBox .lnb li a {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
